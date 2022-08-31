@@ -6,7 +6,7 @@ export const DesignsIcon = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_627_242)">
+    <g clipPath="url(#clip0_627_242)">
       <path
         d="M28.1665 10.6666V28H4.1665V10.6666"
         stroke="#3DBF91"
