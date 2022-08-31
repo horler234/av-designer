@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavigationContainer = styled.nav`
-  height: 100%;
+  height: 100vh;
   overflow-y: auto;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #161616;
@@ -184,4 +184,44 @@ export const PageContainer = styled.div`
   height: 100vh;
   display: flex;
   width: 100vw;
+`;
+
+/** MOBILE NAVIGATION */
+export const MobileNavigationContainer = styled.div`
+  position: sticky;
+  width: 100%;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #161616;
+  color: #fff;
+
+  h1 {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+
+    span {
+      color: #ff6600;
+    }
+  }
+
+  nav {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    nav {
+      display: block;
+    }
+  }
+
+  @media (min-width: 901px) {
+    display: none;
+  }
 `;

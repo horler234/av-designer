@@ -8,6 +8,7 @@ import { DownCaretIcon } from "./DownCaretIcon";
 import { PenIcon } from "./PenIcon";
 import { DesignsIcon } from "./DesignsIcon";
 import { FilterIcon } from "./FilterIcon";
+import { HamburgerIcon } from "./HamburgerIcon";
 
 export {
   LearnIcon,
@@ -20,4 +21,5 @@ export {
   DesignsIcon,
   PenIcon,
   FilterIcon,
+  HamburgerIcon,
 };
